@@ -37,7 +37,7 @@ body {
 
 .hour {
   height: 5.9rem;
-  border-top: .1rem solid rgba(128, 128, 128, 0.144);
+  border-top: 0.1rem solid rgba(128, 128, 128, 0.144);
   position: relative;
 }
 
@@ -50,8 +50,8 @@ body {
 }
 
 .meeting {
-  border: .1em solid rgba(127, 255, 212, 0.829);
-  background-color: rgba(127, 255, 212, 0.384);
+  border: 0.1em solid rgba(127, 236, 255, 0.829);
+  background-color: rgba(127, 255, 212, 0.733);
   position: absolute;
   left: 0;
 }
