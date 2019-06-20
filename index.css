@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  max-width: 114rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.heading-container {
+  margin-left: 2rem;
+}
+
+.hours-container {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  background-color: #d8eff83f;
+  position: relative;
+}
+
+.hour {
+  height: 5.9rem;
+  border-top: .1rem solid rgba(128, 128, 128, 0.144);
+  position: relative;
+}
+
+.hour::before {
+  content: attr(data-before-content);
+  position: absolute;
+  top: -1rem;
+  left: -4rem;
+  font-size: 1.4rem;
+}
+
+.meeting {
+  border: .1em solid rgba(127, 255, 212, 0.829);
+  background-color: rgba(127, 255, 212, 0.384);
+  position: absolute;
+  left: 0;
+}
